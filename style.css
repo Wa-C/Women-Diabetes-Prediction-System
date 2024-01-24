@@ -8,13 +8,17 @@ QMainWindow {
 }
 
 QSlider::handle:horizontal {
-    background: #08edde;
+    background: #13fcec;
     width: 10px;
     margin: -5px -1px;
     border-radius: 5px;
     border: 1px solid #2a2a2a;
 }
-
+QSlider::groove:horizontal {
+    background: #ffffff6a;
+    height:2px;
+    border: 1px solid #2a2a2a;
+}
 QPushButton {
     background-color: #1ffcd3; /* set the background color */
     color: #0f3f33; /* set the text color */
