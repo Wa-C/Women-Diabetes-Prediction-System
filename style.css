@@ -1,0 +1,30 @@
+QMainWindow {
+    background-color: #1e1f22;
+    border-radius: 5px;
+    background-image: url('image.jpg'); /* set the path to your image */
+    background-repeat: no-repeat; /* prevent the image from repeating */
+    background-position: center; /* position the image in the center */
+    
+}
+
+QSlider::handle:horizontal {
+    background: #08edde;
+    width: 10px;
+    margin: -5px -1px;
+    border-radius: 5px;
+    border: 1px solid #2a2a2a;
+}
+
+QPushButton {
+    background-color: #1ffcd3; /* set the background color */
+    color: #0f3f33; /* set the text color */
+    border: 1px solid #0de0af; /* add a border */
+    padding: 5px 10px; /* add padding */
+    border-radius: 5px;
+}
+QLabel {
+    color: #ffffff; /* set the text color for labels */
+    font-size: 14px; /* set the font size for labels */
+    font-family: 'Courier New', Monospace; /* set the font family for labels */
+    font-weight: bold;
+}
